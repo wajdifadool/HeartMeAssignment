@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HeartMe Assignment</string>
+    <string name="submit_blood_test_result">Submit blood test results</string>
+    <string name="submit_result">Submit result</string>
+    <string name="test_name">Test name</string>
+    <string name="test_result">Test Result</string>
+    <string name="is_missing">is missing</string>
+    <string name="blood_test_result_title">Am I OK ?</string>
+    <string name="data_set_error">Data Set not yet downloaded</string>
+    <string name="data_set_downloading">Loading data</string>
+    <string name="my_result">my result</string>
+    <string name="unknown_test">Unknown blood test</string>
+</resources>

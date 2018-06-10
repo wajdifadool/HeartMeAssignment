@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:colorBackground"
+    android:clickable="true">
+
+
+    <TextView
+        android:id="@+id/text_view_blood_test_result"
+        style="@style/font_p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/blood_test_result_title" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_blood_test_result"
+        android:layout_margin="@dimen/margin_child_layout"
+        android:orientation="vertical">
+
+        <!-- Blood Test Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_name" />
+
+        <EditText
+            android:id="@+id/edit_text_test_name"
+            style="@style/edit_text_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:inputType="none">
+
+        </EditText>
+
+
+        <!-- Blood Test Result -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_result" />
+
+        <EditText
+            android:id="@+id/edit_text_test_result"
+            style="@style/edit_text_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:inputType="none" />
+
+        <TextView
+            android:id="@+id/edit_text_test_analyzed"
+            style="@style/font_p3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/image_view_reaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_submit_blood_test_result"
+        android:layout_below="@+id/linear_layout"
+        android:layout_margin="40dp"
+        android:src="@drawable/happy_face" />
+
+</RelativeLayout>

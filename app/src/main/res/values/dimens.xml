@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_screen_margin">8dp</dimen>
+    <dimen name="margin_child_layout">5dp</dimen>
+    <dimen name="edit_text_size">18sp</dimen>
+</resources>

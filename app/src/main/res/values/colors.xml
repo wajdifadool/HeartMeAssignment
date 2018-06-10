@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#990a0a</color>
+    <color name="colorPrimaryDark">#640000</color>
+    <color name="colorAccent">#d14733</color>
+
+    <color name="white">#ffffff</color>
+    <color name="whiteSmoke">#FBFBFB</color>
+    <color name="whiteSmokeBorder">#E6E6E6</color>
+
+    <color name="light_grey">#9E9E9E</color>
+    <color name="black">#000000</color>
+    <color name="red_blood">#ce990a0a</color>
+
+
+
+</resources>
